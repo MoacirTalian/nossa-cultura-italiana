@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Nossa Cultura Italiana: memória, tradição, TALIAN, cantorias e corais.">
+  <title>Galeria | Nossa Cultura Italiana</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+  <header class="topo">
+    <div class="container cabecalho">
+      <a class="marca" href="index.html"><span class="marca-simbolo">✦</span><span>Nossa Cultura Italiana<small>Memória • Tradição • Identidade</small></span></a>
+      <button class="menu-botao" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">☰</button>
+      <nav id="menu" class="menu" aria-label="Navegação principal">
+        <a href="index.html">Início</a><a href="historia.html">Nossa história</a><a href="talian.html">O TALIAN</a><a href="cantorias.html">Cantorias e corais</a><a href="galeria.html">Galeria</a><a href="sobre.html">Sobre o projeto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="titulo-pagina"><div class="container"><p class="sobretitulo">Memória em imagens e sons</p><h1>Galeria cultural</h1><p>Fotografias, vídeos e gravações que ajudam a contar a história de nossas comunidades.</p></div></section>
+    <section class="container artigo">
+      <h2>Fotografias</h2>
+      <p>Troque as imagens de exemplo abaixo por fotografias do seu acervo. Coloque os arquivos na pasta <code>assets/imagens</code> e atualize o nome do arquivo no código.</p>
+      <div class="galeria">
+        <figure><div class="imagem-vazia">Adicione sua fotografia</div><figcaption>Legenda da fotografia: identifique pessoas, local e data.</figcaption></figure>
+        <figure><div class="imagem-vazia">Adicione sua fotografia</div><figcaption>Legenda da fotografia: identifique pessoas, local e data.</figcaption></figure>
+        <figure><div class="imagem-vazia">Adicione sua fotografia</div><figcaption>Legenda da fotografia: identifique pessoas, local e data.</figcaption></figure>
+      </div>
+      <h2>Vídeos e gravações</h2>
+      <p>Você pode inserir links para vídeos publicados no YouTube. Substitua o endereço de exemplo pelo link de incorporação do vídeo que deseja exibir.</p>
+      <div class="video-ajuda"><strong>Como inserir um vídeo</strong><p>No YouTube, abra o vídeo, escolha <em>Compartilhar → Incorporar</em> e copie o endereço que aparece em <code>src</code> no código fornecido.</p></div>
+      <pre class="codigo"><code>&lt;iframe
+  src="https://www.youtube-nocookie.com/embed/ID_DO_VIDEO"
+  title="Apresentação de cantoria"
+  loading="lazy"
+  allowfullscreen&gt;
+&lt;/iframe&gt;</code></pre>
+      <p class="nota-editorial">Publique apenas imagens, gravações e vídeos que você tenha autorização para divulgar. Acrescente legendas e créditos sempre que possível.</p>
+    </section>
+  </main>
+  <footer class="rodape"><div class="container rodape-linha"><div><strong>Nossa Cultura Italiana</strong><p>Memória que se preserva, tradição que se compartilha.</p></div><p>© <span id="ano"></span> • Acervo cultural</p></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
