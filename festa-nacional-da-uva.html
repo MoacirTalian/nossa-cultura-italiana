@@ -1,54 +1,82 @@
-
 <!doctype html>
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Breve histórico da Festa Nacional da Uva, em Caxias do Sul, Rio Grande do Sul.">
   <title>Festa Nacional da Uva | Nossa Cultura Italiana</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
   <header class="topo">
     <div class="container cabecalho">
-      <a class="marca" href="index.html">
+      <a class="marca" href="index.html" aria-label="Nossa Cultura Italiana - página inicial">
         <span class="marca-simbolo">✦</span>
-        <span>Nossa Cultura Italiana
-          <small>Memória • Tradição • Identidade</small>
-        </span>
+        <span>Nossa Cultura Italiana<small>Memória • Tradição • Identidade</small></span>
       </a>
-      <nav class="menu" aria-label="Navegação principal">
+      <button class="menu-botao" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">☰</button>
+      <nav id="menu" class="menu" aria-label="Navegação principal">
         <a href="index.html">Início</a>
         <a href="historia.html">Nossa história</a>
         <a href="talian.html">O TALIAN</a>
         <a href="cantorias.html">Cantorias e corais</a>
         <a href="galeria.html">Galeria</a>
-        <a href="festa-nacional-da-uva.html">Festa Nacional da Uva</a>
+        <a class="ativo" href="festa-nacional-da-uva.html">Festa Nacional da Uva</a>
         <a href="sobre.html">Sobre o projeto</a>
       </nav>
     </div>
   </header>
-
   <main id="conteudo">
     <section class="titulo-pagina">
       <div class="container">
-        <p class="sobretitulo">Nossa Cultura Italiana</p>
+        <p class="sobretitulo">Nossa Cultura Italiana • Caxias do Sul, RS</p>
         <h1>Festa Nacional da Uva</h1>
+        <p>Uma celebração da vitivinicultura, da imigração italiana e da identidade cultural da Serra Gaúcha.</p>
       </div>
     </section>
-
     <article class="container artigo">
-      <!-- Espaço reservado para inserir o conteúdo posteriormente. -->
+      <p class="sobretitulo verde">Memória e tradição</p>
+      <h2>Principais Marcos Históricos</h2>
+      <p>A Festa Nacional da Uva cresceu de uma exposição dedicada à produção de uvas para se tornar uma grande celebração cultural da Serra Gaúcha, reunindo agricultura, história, comunidade e tradições dos descendentes de imigrantes.</p>
+      <section>
+        <h2>Origem (1931)</h2>
+        <p>A primeira edição ocorreu em 8 de março de 1931, idealizada por Joaquim Pedro Lisboa como uma pequena exposição de uvas no Recreio da Juventude. O objetivo era incentivar a qualidade da vitivinicultura e valorizar a produção local.</p>
+      </section>
+      <section>
+        <h2>Primeira Rainha (1933)</h2>
+        <p>Em 1933, instituiu-se o concurso de escolha da soberana da festa por voto popular. Adélia Eberle foi a primeira rainha eleita, inaugurando uma tradição que se tornou parte marcante da identidade do evento.</p>
+      </section>
+      <section>
+        <h2>Interrupção e retorno</h2>
+        <p>A festa deixou de acontecer entre 1938 e 1949, em um período marcado pelos impactos políticos da Segunda Guerra Mundial. O evento retornou em 1950, retomando sua função de celebrar a produção da uva e a cultura local.</p>
+      </section>
+      <section>
+        <h2>A “Festa Interminável” (1954)</h2>
+        <p>A edição de 1954 durou 51 dias e marcou a inauguração do <a href="https://www.piteira1908.com.br/blog/festa-da-uva-caxias-do-sul/" target="_blank" rel="noopener noreferrer">Monumento Nacional ao Imigrante</a> e dos primeiros pavilhões de exposição.</p>
+      </section>
+      <section>
+        <h2>Primeira cor na TV brasileira (1972)</h2>
+        <p>O tradicional desfile de carros alegóricos da festa, realizado na Rua Sinimbu, é frequentemente lembrado pela transmissão em cores da televisão brasileira em 1972. Para a publicação definitiva, recomenda-se conferir e registrar a fonte histórica específica sobre o pioneirismo dessa transmissão.</p>
+      </section>
+      <section>
+        <h2>Evolução cultural (anos 1990)</h2>
+        <p>A partir dos anos 1990, o evento passou a adotar temas centrais em suas edições, resgatar tradições rurais e criar os Jogos Coloniais, em 1994. Essas iniciativas valorizaram o cotidiano, os costumes e a memória dos descendentes de imigrantes.</p>
+      </section>
+      <aside class="nota-editorial">
+        <strong>Uma história em permanente construção</strong>
+        <p>Esta página pode ser ampliada com fotografias de diferentes edições, cartazes, programas oficiais, registros dos desfiles e lembranças de pessoas que participaram da Festa Nacional da Uva.</p>
+      </aside>
+      <p><a class="botao botao-escuro" href="index.html">← Voltar à página inicial</a></p>
     </article>
   </main>
-
   <footer class="rodape">
     <div class="container rodape-linha">
-      <div>
-        <strong>Nossa Cultura Italiana</strong>
-        <p>Memória que se preserva, tradição que se compartilha.</p>
-      </div>
-      <p>© Nossa Cultura Italiana</p>
+      <div><strong>Nossa Cultura Italiana</strong><p>Memória que se preserva, tradição que se compartilha.</p></div>
+      <p>© <span id="ano"></span> • Acervo cultural</p>
     </div>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
+
